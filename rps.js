@@ -83,4 +83,4 @@ const playGame = (userChoice, computerChoice = getComputerChoice()) =>
   console.log(determineWinner(userChoice, computerChoice));
 }
 
-playGame("bomb");
+playGame("scissors");
